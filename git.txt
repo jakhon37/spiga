@@ -1,0 +1,9 @@
+
+
+echo "# spiga" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jakhon37/spiga.git
+git push -u origin main
